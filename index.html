@@ -1,0 +1,26 @@
+<!-- <html>
+
+<body onload="onLoad();">
+    <h1 class="title">IPL Season 2022 Points</h1>
+    <div id="h1_tag"></div> 
+</body>
+
+<script language="javascript">
+    function onLoad() {
+        fetch('https://my-json-server.typicode.com/FreSauce/json-ipl/data')
+            .then(response => response.json())
+            .then((data)=>{
+                var div = document.getElementById("h1_tag")
+                for (var i = 0; i< data.length; i++){
+                    div.innerHTML += `<h1>${data[i]["Team"]}</h1>`
+                }
+            });
+    }
+</script>
+
+</html> -->
+
+<html>
+    <h1>Learn Javascript</h1>
+    <script src="index.js"></script>
+</html>
